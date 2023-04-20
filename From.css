@@ -1,0 +1,73 @@
+*
+{
+	margin:0px;
+}
+body
+{
+	background:yellow url("Hacker.jpg") no-repeat 0px 0px fixed;
+	background-size:cover;
+}
+#reg-form
+{
+	background:linear-gradient(45deg,rgb(183, 19, 95),rgb(204, 101, 22),rgb(82, 12, 144));
+	padding:30px;
+	width:300px;
+	text-align:center;
+	margin:100px auto;
+	border-radius:10px;
+	box-shadow:0 0 10px white;
+	
+}
+.form-group>input[type="text"],
+.form-group>input[type="password"],
+.form-group>textarea,
+.form-group>select
+{
+	width:230px;
+	height:27px;
+	border:none;
+	outline:none;
+	margin-bottom:17px;
+	background:transparent;
+	font-size:18px;
+	font-family:"comic sans ms",sans-serif;
+	color:white;
+	border-bottom:2px solid white;
+}
+::placeholder
+{
+    color: white;
+}
+.form-group>input[type="submit"]
+{
+    background: linear-gradient(135deg,rgb(175, 23, 147),rgb(60, 15, 149),rgb(135, 19, 63));
+    border: none;
+    outline: none;
+    width: 230px;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 10px;
+
+}
+.form-group>input[type="submit"]:hover
+{
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+#reg-form>#icon
+{
+    position:relative;
+    top:-80px;
+}
+#reg-form>#icon>span
+{
+    color: white;
+    font-size: 100px;
+    border: 5px none rgb(209, 27, 75);
+    border-radius: 100%;
+    box-shadow: 0 0 5px white;
+}
+option{
+	background-color: black;
+}
